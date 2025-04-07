@@ -10,8 +10,9 @@ const Hero = () => {
 
             <img src={profile_img} alt="" />
 
-            <h1><span>i'm Vishal Pandey,</span>Frontend Developer basad in USA.</h1>
-            <p>I'm a Frontend Developer from california , USA with 10 years of experience in multiple componies like microsoft,Tesla and Apple.</p>
+            <h1><span>i'm Vishal Pandey,</span>Full Stack Web Developer</h1>
+            <p>I'm a Full Stack Web Developer from Jaipur (Rajsthan),  with 10 years of experience in multiple componies like microsoft,Tesla and Apple.</p>
+            
             <div className="hero-action">
                 <div className="hero-connect"><AnchorLink  className="anchor-link"  offset={50} href="#Contact Us">connect with me</AnchorLink></div>
                 <div className="hero-resume"> My Resume</div>

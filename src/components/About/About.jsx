@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import profile_img from '../../assets/vishal.jpg'
+import underline from '../../assets/theme_pattern.svg'
 
 
 const About = () => {
@@ -8,6 +9,7 @@ const About = () => {
         <div  id="About Me" className="about">
             <div className="about-title">
                 <h1>About Me</h1>
+                <img src={underline} alt="" />
             </div>
             <div className="about-sections">
                 <div className="about-left">

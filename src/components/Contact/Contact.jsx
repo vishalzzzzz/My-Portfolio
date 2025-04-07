@@ -1,5 +1,6 @@
 import  React from 'react'
 import './Contact.css'
+// import underline from '../../assets/theme_pattern.svg' 
 
 const Contact = () => {
 
@@ -30,11 +31,13 @@ const Contact = () => {
         <div  id="Contact Us" className="contact">
             <div className="contact-title">
                 <h1>Get In Touch</h1>
+                {/* <img src={underline} alt="" /> */}
 
             </div>
             <div className="contact-section">
                 <div className="contact-left">
                     <h1>Let's talk</h1>
+                 
                     <p>I am currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
                     <div className='contant-details'>
                         <div className='contact-detail'>
@@ -46,7 +49,7 @@ const Contact = () => {
 
                         </div>
                         <div className='contact-detail'>
-                            <p>CA, United States</p>
+                            <p>Jaipur (Rajsthan) India</p>
 
                         </div>
                     </div>
